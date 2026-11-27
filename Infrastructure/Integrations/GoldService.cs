@@ -21,7 +21,7 @@ public class GoldService : IIntegrationService
     private static readonly GoldProduct[] Products =
     {
         new("gram", "Gram Altın", "GRA", "gram", "TRY", 1m),
-        new("ounce", "Ons Altın", "ONS", "ons", "TRY"),
+        new("ounce", "Ons Altın", "ONS", "ons", "TRY", GramsPerOunce),
         new("quarter", "Çeyrek Altın", "CEYREKALTIN", "adet", "TRY", 1.75m),
         new("half", "Yarım Altın", "YARIMALTIN", "adet", "TRY", 3.50m),
         new("full", "Tam Altın", "TAMALTIN", "adet", "TRY", 7.00m),
