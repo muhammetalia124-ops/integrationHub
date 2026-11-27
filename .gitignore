@@ -1,0 +1,69 @@
+# ---------- .NET ----------
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+ARM64/
+publish/
+artifacts/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+.idea/
+_reSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+TestResults/
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+*.nupkg
+
+# ---------- Node / frontend araçları ----------
+node_modules/
+dist/
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Gizli yapılandırma ----------
+# Parola / JWT / bağlantı bilgileri user-secrets veya ortam değişkenlerinde tutulur.
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.publishsettings
+
+# ---------- Veritabanı dosyaları ----------
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.ndf
+
+# ---------- İşletim sistemi ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---------- Geçici dosyalar ----------
+*.tmp
+*.temp
+*.orig
+*.rej
+
+# ---------- Local HTTP test dosyaları ----------
+*.http
